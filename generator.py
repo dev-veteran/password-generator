@@ -11,9 +11,9 @@ digit2 = ''.join(random.choices(string.ascii_lowercase, k=random.randint(1,3)))
 digit3 = ''.join(random.choices(string.digits, k=random.randint(1,3))) 
 digit4 = ''.join(random.choices(string.punctuation, k=random.randint(1,3))) 
 
-#randomly getting integer between 1-5.
+#randomly getting integer between 1-4.
 #with that number we are randomly accessing methods.
-random_method = random.randint(1,5)
+random_method = random.randint(1,4)
 #prints method for checking purposes.
 print("method: ", random_method)
 
@@ -26,7 +26,5 @@ if(random_method == 3):
     print("output: ", digit3 + digit4 + digit2 + digit1)
 if(random_method == 4):
     print("output: ", digit1 + digit3 + digit4 + digit2)
-if(random_method == 5):
-	print("output: ", digit4 + digit2 + digit3 + digit1)
 #pausing program through command prompt's pause function.
 os.system("pause")
