@@ -17,7 +17,7 @@ random_method = random.randint(1,4)
 #prints method for checking purposes.
 print("method: ", random_method)
 
-#i've created 5 methods from my mind to achieve more systematics.
+#i've created 4 methods from my mind to achieve more systematics.
 if(random_method == 1):
    	print("output: ", digit1 + digit3 + digit2 + digit4)
 if(random_method == 2):
