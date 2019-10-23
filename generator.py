@@ -13,7 +13,7 @@ digit4 = ''.join(random.choices(string.punctuation, k=random.randint(1,3)))
 
 #randomly getting integer between 1-4.
 #with that number we are randomly accessing methods.
-random_method = random.randint(1,4)
+random_method = random.randint(0,4)
 #prints method for checking purposes.
 print("method: ", random_method)
 
